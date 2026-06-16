@@ -144,8 +144,8 @@ function Footer() {
             <h3 className="text-earth-200 font-display font-semibold mb-3 text-sm tracking-widest uppercase">Kontak</h3>
             <ul className="space-y-2 text-sm text-earth-400">
               <li>Lebak, Banten, Indonesia</li>
-              <li>info@baduyheritage.id</li>
-              <li>+62 812-3456-7890</li>
+              <li>baduyheritage@gmail.com</li>
+              <li>+62 818 0706 8181</li>
             </ul>
             <div className="mt-4">
               <Link

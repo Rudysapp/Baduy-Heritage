@@ -177,8 +177,8 @@ function ContactForm() {
 function ContactPage() {
   const info = [
     { icon: '📍', label: 'Alamat', value: 'Desa Kanekes, Leuwidamar, Lebak, Banten 42365' },
-    { icon: '📧', label: 'Email', value: 'info@baduyheritage.id' },
-    { icon: '📱', label: 'WhatsApp', value: '+62 812-3456-7890' },
+    { icon: '📧', label: 'Email', value: 'baduyheritage@gmail.com' },
+    { icon: '📱', label: 'WhatsApp', value: '+62 818 0706 8181' },
     { icon: '⏰', label: 'Jam Respons', value: 'Senin–Sabtu, 08.00–20.00 WIB' },
   ]
 
