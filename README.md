@@ -49,7 +49,7 @@ title: "Post Title"
 summary: "Short description"
 categories:
   - Budaya
-image: placeholder.png
+image: /placeholder.png
 ---
 ```
 

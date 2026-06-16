@@ -5,7 +5,7 @@ summary: "Siapa sebenarnya Suku Baduy? Menyelami kehidupan komunitas adat yang m
 categories:
   - Budaya
   - Tradisi
-image: placeholder.png
+image: /placeholder.png
 ---
 
 Di balik megahnya gedung-gedung Banten yang modern, tersembunyi sebuah peradaban yang memilih jalan berbeda. Suku Baduy — atau dalam bahasa mereka sendiri disebut Urang Kanekes — adalah masyarakat adat yang telah menghuni kawasan pegunungan Kendeng di Kabupaten Lebak selama berabad-abad. Mereka adalah cermin hidup dari kearifan lokal yang bertahan di tengah modernitas.

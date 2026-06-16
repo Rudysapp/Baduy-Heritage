@@ -5,7 +5,7 @@ summary: "Masakan Baduy bukan soal rasa yang kompleks atau bahan yang mahal. Ini
 categories:
   - Kuliner
   - Budaya
-image: placeholder.png
+image: /placeholder.png
 ---
 
 Ketika Anda pertama kali menyantap makanan di rumah warga Baduy, mungkin ada sedikit kejutan. Tidak ada bumbu yang meledak-ledak di lidah, tidak ada olahan yang rumit, tidak ada kemasan mewah. Yang ada hanyalah kesederhanaan yang berbicara langsung dari bumi ke perut Anda.

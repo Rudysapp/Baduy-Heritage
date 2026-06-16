@@ -5,7 +5,7 @@ summary: "Setiap tahun, Suku Baduy menutup wilayahnya untuk dunia luar selama ti
 categories:
   - Tradisi
   - Budaya
-image: placeholder.png
+image: /placeholder.png
 ---
 
 Ada waktu-waktu tertentu dalam setahun ketika jalur menuju Baduy Dalam ditutup rapat untuk semua orang luar. Tidak ada wisatawan, tidak ada peneliti, tidak ada media. Bahkan warga Baduy Luar pun memiliki batasan dalam berinteraksi dengan saudaranya di Dalam. Itulah masa **Kawalu** — periode sakral yang menjadi inti dari kehidupan spiritual Suku Baduy.

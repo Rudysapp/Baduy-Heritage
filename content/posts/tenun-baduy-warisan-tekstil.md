@@ -5,7 +5,7 @@ summary: "Dari benang kapas hingga kain jadi, setiap helai tenun Baduy adalah ki
 categories:
   - Budaya
   - Kerajinan
-image: placeholder.png
+image: /placeholder.png
 ---
 
 Di sebuah beranda rumah panggung di Kampung Gajeboh, seorang perempuan Baduy duduk dengan tenang di depan alat tenun kayu sederhana. Jemarinya bergerak ritmis, melintaskan benang kapas dengan presisi yang hanya bisa didapat dari bertahun-tahun berlatih. Ia tidak membutuhkan pola tertulis — seluruh motif tersimpan dalam ingatannya, diwariskan dari ibu, dari nenek, dari nenek moyang yang tak terhitung jumlahnya.

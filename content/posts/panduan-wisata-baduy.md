@@ -5,7 +5,7 @@ summary: "Semua yang perlu Anda ketahui sebelum, selama, dan setelah mengunjungi
 categories:
   - Perjalanan
   - Panduan
-image: placeholder.png
+image: /placeholder.png
 ---
 
 Perjalanan ke Baduy adalah salah satu pengalaman paling berkesan yang bisa Anda lakukan di Indonesia. Namun tanpa persiapan yang tepat, perjalanan yang seharusnya transformatif bisa berubah menjadi melelahkan. Panduan ini hadir untuk memastikan Anda siap dari ujung rambut hingga ujung kaki.
