@@ -1,12 +1,13 @@
 ---
+title: "Menapaki Jejak Kearifan Baduy: Bukan Sekedar Wisata, Tapi Makna Dibaliknya"
 date: 2026-06-16
-title: "Menapaki Jejak Kearifan Baduy: Perjalanan yang Lebih dari Sekadar Wisata"
-summary: "Perjalanan edukasi dan wisata budaya yang menghadirkan pengalaman langsung mengenal kehidupan masyarakat Baduy."
+summary: Perjalanan edukasi dan wisata budaya yang menghadirkan pengalaman
+  langsung mengenal kehidupan masyarakat Baduy.
+image: /baduy-trip-01.jpg
+imageCaption: Rombongan private trip Baduy Heritage di gerbang kawasan Baduy, Lebak, Banten
 categories:
   - Wisata
   - Edukasi
-image: /baduy-trip-01.jpg
-imageCaption: "Rombongan private trip Baduy Heritage di gerbang kawasan Baduy, Lebak, Banten"
 ---
 
 
