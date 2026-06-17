@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: Rudysapp/Baduy-Heritage
+  branch: main
+
+media_folder: public
+public_folder: /
+
+collections:
+  - name: posts
+    label: Artikel Blog
+    folder: content/posts
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Judul, name: title, widget: string }
+      - { label: Tanggal, name: date, widget: datetime }
+      - { label: Ringkasan, name: summary, widget: text }
+      - { label: Foto, name: image, widget: image, required: false }
+      - { label: Caption Foto, name: imageCaption, widget: string, required: false }
+      - { label: Kategori, name: categories, widget: list }
+      - { label: Konten, name: body, widget: markdown }

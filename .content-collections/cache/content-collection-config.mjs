@@ -11,6 +11,7 @@ var posts = defineCollection({
     categories: z.array(z.string()),
     slug: z.string().optional(),
     image: z.string(),
+    imageCaption: z.string().optional(),
     date: z.string(),
     content: z.string()
   }),

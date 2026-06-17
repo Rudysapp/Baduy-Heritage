@@ -6,6 +6,7 @@ categories:
   - Wisata
   - Edukasi
 image: /baduy-trip-01.jpg
+imageCaption: "Rombongan private trip Baduy Heritage di gerbang kawasan Baduy, Lebak, Banten"
 ---
 
 

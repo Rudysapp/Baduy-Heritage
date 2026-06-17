@@ -41,11 +41,18 @@ function RouteComponent() {
       </div>
       {post.image && (
   <div className="max-w-3xl mx-auto px-4 sm:px-6 pt-8">
-    <img
-      src={post.image}
-      alt={post.title}
-      className="w-full rounded-xl object-cover max-h-96"
-    />
+    <figure>
+      <img
+        src={post.image}
+        alt={post.title}
+        className="w-full rounded-xl object-cover max-h-96"
+      />
+      {post.imageCaption && (
+        <figcaption className="text-center text-sm text-earth-500 italic mt-2">
+          {post.imageCaption}
+        </figcaption>
+      )}
+    </figure>
   </div>
 )}
 
