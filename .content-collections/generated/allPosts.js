@@ -39,7 +39,7 @@ export default [
     "slug": "kuliner_tradisional_baduy_cita_rasa_yang_lahir_dari_alam"
   },
   {
-    "title": "Menapaki Jejak Kearifan Baduy: Bukan Sekadar Wisata, Tapi Makna Dibaliknya",
+    "title": "Menapaki Jejak Kearifan Baduy: Bukan Sekedar Wisata, Tapi Makna Dibaliknya",
     "summary": "Perjalanan edukasi dan wisata budaya yang menghadirkan pengalaman langsung mengenal kehidupan masyarakat Baduy.",
     "categories": [
       "Wisata",
@@ -56,7 +56,7 @@ export default [
       "extension": "md",
       "path": "menapaki-jejak-kearifan-baduy"
     },
-    "slug": "menapaki_jejak_kearifan_baduy_bukan_sekadar_wisata_tapi_makna_dibaliknya"
+    "slug": "menapaki_jejak_kearifan_baduy_bukan_sekedar_wisata_tapi_makna_dibaliknya"
   },
   {
     "title": "Mengenal Suku Baduy: Penjaga Tradisi di Tanah Banten",
