@@ -5,7 +5,7 @@ summary: "Tanpa arsitek, tanpa paku, tanpa semen — rumah-rumah Baduy berdiri k
 categories:
   - Budaya
   - Tradisi
-image: /placeholder.png.jpg
+image: /placeholder.png
 ---
 
 Di tengah hutan Kendeng yang lebat, berdiri deretan rumah panggung yang tampak sederhana namun memancarkan kehangatan luar biasa. Dindingnya terbuat dari anyaman bambu, atapnya dari ijuk, lantainya dari bilah bambu yang disusun rapi. Tidak ada paku besi, tidak ada semen, tidak ada bahan bangunan modern.

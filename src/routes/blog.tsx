@@ -22,8 +22,8 @@ function BlogPage() {
       {/* Header banner */}
       <div className="bg-forest-800 py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <span className="text-xs tracking-[0.2em] uppercase text-earth-400 font-body">Cerita & Inspirasi</span>
-          <h1 className="font-display text-5xl text-earth-100 mt-2 mb-4">Blog Budaya</h1>
+          <span className="text-xs tracking-[0.2em] uppercase text-earth-400 font-body">Jurnal & Inspirasi</span>
+          <h1 className="font-display text-5xl text-earth-100 mt-2 mb-4">Catatan Dari Tanah Baduy</h1>
           <p className="text-earth-300 font-body max-w-xl">
             Kisah tentang tradisi, perjalanan, dan kehidupan Suku Baduy yang telah terjaga selama berabad-abad di pedalaman Banten.
           </p>
@@ -49,14 +49,24 @@ function BlogPage() {
           {posts.map((post) => (
             <Link key={post._meta.path} to={`/posts/${post.slug}`} className="group block">
               <article className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-earth-200 h-full flex flex-col">
-                <div className="h-48 bg-gradient-to-br from-forest-700 via-earth-700 to-forest-900 flex items-end p-4">
-                  <div className="flex flex-wrap gap-1">
-                    {post.categories.map((cat) => (
-                      <span key={cat} className="text-xs bg-white/15 text-earth-100 px-2 py-0.5 rounded-full border border-white/10">
-                        {cat}
-                      </span>
-                    ))}
-                  </div>
+                <div className="h-48 relative overflow-hidden">
+  {post.image ? (
+    <img
+      src={post.image}
+      alt={post.title}
+      className="w-full h-full object-cover"
+    />
+  ) : (
+    <div className="w-full h-full bg-gradient-to-br from-forest-700 via-earth-700 to-forest-900" />
+  )}
+  <div className="absolute inset-0 bg-black/20" />
+  <div className="absolute bottom-3 left-3 flex flex-wrap gap-1">
+    {post.categories.map((cat) => (
+      <span key={cat} className="text-xs bg-white/15 text-earth-100 px-2 py-0.5 rounded-full border border-white/20">
+        {cat}
+      </span>
+    ))}
+  </div>
                 </div>
                 <div className="p-5 flex flex-col flex-1">
                   <p className="text-xs text-earth-500 mb-2 font-body">{post.date}</p>

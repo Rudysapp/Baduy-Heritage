@@ -7,7 +7,7 @@ export const Route = createRootRoute({
     meta: [
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { title: 'Baduy Heritage — Penjaga Tradisi Banten' },
+      { title: 'Baduy Heritage — Penjaga Tradisi Di Tanah Banten' },
       { name: 'description', content: 'Mengenal budaya Suku Baduy di Banten, Indonesia. Cerita, panduan perjalanan, paket open trip, dan koleksi kerajinan tangan khas Baduy.' },
     ],
     links: [
@@ -38,7 +38,7 @@ function Navbar() {
             </div>
             <div className="leading-tight">
               <div className="text-earth-100 font-display font-semibold text-lg leading-none">Baduy Heritage</div>
-              <div className="text-earth-400 text-xs tracking-widest uppercase">Penjaga Tradisi Banten</div>
+              <div className="text-earth-400 text-xs tracking-widest uppercase">Penjaga Tradisi di tanah Banten</div>
             </div>
           </Link>
 

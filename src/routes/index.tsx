@@ -111,8 +111,8 @@ function FeaturedPosts({ posts }: { posts: ReturnType<typeof allPosts>[number][]
     <section className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex items-end justify-between mb-10">
         <div>
-          <span className="text-xs tracking-[0.2em] uppercase text-earth-600 font-body">Cerita Terbaru</span>
-          <h2 className="font-display text-4xl text-forest-800 mt-1">Dari Alam Kendeng</h2>
+          <span className="text-xm tracking-[0.2em] uppercase text-earth-600 font-body">Artikel Terbaru</span>
+          <h2 className="font-display text-4xl text-forest-800 mt-1">Tulisan Dari Tanah Kanekes</h2>
         </div>
         <Link to="/blog" className="text-sm text-forest-600 hover:text-forest-800 underline font-body transition-colors">
           Lihat semua →
@@ -123,15 +123,25 @@ function FeaturedPosts({ posts }: { posts: ReturnType<typeof allPosts>[number][]
         {featured.map((post, i) => (
           <Link key={post._meta.path} to={`/posts/${post.slug}`} className="group block">
             <article className={`bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-earth-200 h-full flex flex-col ${i === 0 ? 'md:col-span-1' : ''}`}>
-              <div className="h-52 bg-gradient-to-br from-forest-700 to-earth-700 flex items-end p-5">
-                <div className="flex flex-wrap gap-1">
-                  {post.categories.map((cat) => (
-                    <span key={cat} className="text-xs bg-earth-400/30 text-earth-100 px-2 py-0.5 rounded-full border border-earth-300/30">
-                      {cat}
-                    </span>
-                  ))}
-                </div>
-              </div>
+              <div className="h-52 relative overflow-hidden">
+  {post.image ? (
+    <img
+      src={post.image}
+      alt={post.title}
+      className="w-full h-full object-cover"
+    />
+  ) : (
+    <div className="w-full h-full bg-gradient-to-br from-forest-700 via-earth-700 to-forest-900" />
+  )}
+  <div className="absolute inset-0 bg-black/20" />
+  <div className="absolute bottom-3 left-3 flex flex-wrap gap-1">
+    {post.categories.map((cat) => (
+      <span key={cat} className="text-xs bg-earth-400/30 text-earth-100 px-2 py-0.5 rounded-full border border-white/20">
+        {cat}
+      </span>
+    ))}
+  </div>
+</div>
               <div className="p-6 flex flex-col flex-1">
                 <p className="text-xs text-earth-500 mb-2 font-body tracking-wide">{post.date}</p>
                 <h3 className="font-display text-xl font-semibold text-forest-800 group-hover:text-forest-600 transition-colors mb-3 leading-snug">

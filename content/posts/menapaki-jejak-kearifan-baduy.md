@@ -1,6 +1,6 @@
 ---
 date: 2026-06-16
-title: "Menapaki Jejak Kearifan Baduy: Perjalanan yang Lebih dari Sekadar Wisata"
+title: "Menapaki Jejak Kearifan Baduy: Bukan Sekadar Wisata, Tapi Makna Dibaliknya"
 summary: "Perjalanan edukasi dan wisata budaya yang menghadirkan pengalaman langsung mengenal kehidupan masyarakat Baduy."
 categories:
   - Wisata
